@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:personal_website/styles/colors.dart';
 import 'package:personal_website/styles/styles.dart';
-import 'package:personal_website/utils/app_utils.dart';
-import 'package:personal_website/widgets/buttons/primary_button.dart';
 import 'package:personal_website/widgets/others/general_introduction_desc.dart';
 
 class GeneralIntroduction extends StatelessWidget {

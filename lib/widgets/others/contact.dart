@@ -47,7 +47,7 @@ class Contact extends StatelessWidget {
           radius: 5.h,
           onTap: () {
             AppUtils.launcher(
-              Uri(scheme: 'mailto', path: 'azisfathl@gmail.com'),
+              Uri.parse('https://wa.me/3039639571'),
             );
           },
         ),

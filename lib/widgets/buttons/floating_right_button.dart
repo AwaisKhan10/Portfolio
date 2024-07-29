@@ -20,12 +20,12 @@ class FloatingRightButton extends StatelessWidget {
             RotatedBox(
               quarterTurns: 1,
               child: TextButtonCustom(
-                label: 'azisfathl@gmail.com',
+                label: 'awais.sf10@gmail.com',
                 labelTextStyle:
                     TextStyles.firaCodeText.copyWith(letterSpacing: 1.5),
                 onPressed: () {
                   AppUtils.launcher(
-                    Uri(scheme: 'mailto', path: 'azisfathl@gmail.com'),
+                    Uri(scheme: 'mailto', path: 'awais.sf10@gmail.com'),
                   );
                 },
               ),

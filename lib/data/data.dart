@@ -130,15 +130,27 @@ const List<ProjectModel> listProjectOther = [
     projectTitle: 'Scotani Fashion',
   ),
   ProjectModel(
-    companyName: 'Driver App',
+    companyName: 'Freelancing',
     projectDesc:
-        'Build a Cinema Ticket Booking application using Flutter with implement GetX state management. This application using Firebase for user and database authentication, integration Rest-API from open API themoviedb to getting movie data, and there are already multilingual features in English and Indonesian.',
+        'Build a Driver App using Flutter with implement Provider state management and backend API. This application using Backend in laravel php',
     projectLink: {
       'playstore':
-          'https://play.google.com/store/apps/details?id=com.fathdotdev.flutix',
+          'https://drive.google.com/file/d/1-XJXWRDkqGbGVi1FdflOlGGN6NEUwr3d/view?usp=drive_link',
       'appstore': '',
-      'github': 'https://github.com/fathulaziss/flutix-getx',
+      'github': 'https://github.com/AwaisKhan10/new_driver_app.git',
     },
-    projectTitle: 'Flutix           ',
+    projectTitle: 'Driver App           ',
+  ),
+  ProjectModel(
+    companyName: 'Freelancing',
+    projectDesc:
+        'Build a Rider App using Flutter with implement Provider state management and backend API. This application using Backend in laravel php',
+    projectLink: {
+      'playstore':
+          'https://drive.google.com/file/d/1aoLqy8FOZxrPxA1Y_vvLS2U-wQ3zNkhk/view?usp=drive_link',
+      'appstore': '',
+      'github': 'https://github.com/AwaisKhan10/Rider_App.git',
+    },
+    projectTitle: 'Rider App           ',
   ),
 ];
