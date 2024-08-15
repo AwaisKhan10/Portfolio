@@ -18,6 +18,15 @@ class FloatingLeftButton extends StatelessWidget {
           children: [
             IconButtonCustom(
               isCustomIcon: true,
+              customIcon: 'ic_fiverr.png',
+              iconSize: 30.h,
+              onPressed: () {
+                AppUtils.openLink('https://www.fiverr.com/users/awais_khan30');
+              },
+            ),
+            verticalSpace(40.h),
+            IconButtonCustom(
+              isCustomIcon: true,
               customIcon: 'ic_github.png',
               iconSize: 30.h,
               onPressed: () {
@@ -40,7 +49,7 @@ class FloatingLeftButton extends StatelessWidget {
               customIcon: 'ic_instagram.png',
               iconSize: 30.h,
               onPressed: () {
-                AppUtils.openLink('https://www.instagram.com/awais.sf10/');
+                AppUtils.openLink('https://www.instagram.com/flutter_dev10/');
               },
             ),
             verticalSpace(40.h),
